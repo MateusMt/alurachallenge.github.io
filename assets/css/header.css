@@ -31,6 +31,10 @@ margin-bottom: 9.95px;
 	align-items: center;
 }
 
+.img-profile {
+	width: 32px;
+	height: 32px;
+}
 .name-profile {
 	font-family: Inter;
 	margin-left: 8px;
