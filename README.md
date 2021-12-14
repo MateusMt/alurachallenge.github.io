@@ -1,5 +1,7 @@
 # alura-challenge
- <h1>🖥️Projeto desenvolvido durante o Alura Challenge Front-end</h1>
+<h1>🖥️Projeto AluraDEV</h1>
+ 
+O projeto foi desenvolvido durante o #alura-challenge Front-end
 
 URL do desafio: https://www.alura.com.br/challenges/front-end
 
