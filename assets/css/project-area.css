@@ -6,6 +6,8 @@
 
 .your-project {
     margin-bottom: 2.5rem;
+        display: flex;
+    flex-direction: column;
 }
 
 .your-project > h2, .personalization > h2 {
@@ -58,4 +60,6 @@ option {
     color: #051D3B;
     border-radius: 0.5rem;
     border-style: none;
+    display: flex;
+    flex-direction: column;
 }
