@@ -1,0 +1,59 @@
+.project-area {
+    margin: 0 0 0 2.5rem;
+}
+
+.your-project {
+    margin-bottom: 2.5rem;
+}
+
+.your-project > h2, .personalization > h2 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-name, .project-descryption, .select-language, .save-button {
+    width: 17rem;
+
+}
+
+.project-name {
+    height: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.project-descryption {
+    height: 5rem;
+    margin: 0.5rem 0;
+}
+
+.select-language {
+    height: 3.5rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.16);
+    margin: 0.5rem 0 1rem 0;
+}
+
+option {
+    color: #9c987C;
+}
+
+#color-picker {
+    width: 17rem;
+    height: 3.5rem;
+    background-color: transparent;
+    padding: 0.5rem;
+    box-shadow: none;
+    border-style: groove;
+    border-color: #FFFFFF;
+}
+
+.save-button {
+    font-family: Inter;
+    font-size: 1rem;
+    margin: 1rem 0;
+    height: 3.5rem;
+    background-color: #5081FB;
+    color: #051D3B;
+    border-radius: 0.5rem;
+    border-style: none;
+}

@@ -1,0 +1,33 @@
+.menu-nav {
+    margin: 0px 22px 0px 32px;
+}
+
+.menu-nav > h2 {
+    width: 51px;
+    height: 8px;
+    margin-bottom: 16px;
+}
+
+.menu-items > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+li > img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+li > a {
+    width: 11.813rem;
+    font-family: Inter;
+    color: #C4C4C4;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+li:last-child {
+    color: #5081FB29;
+}
