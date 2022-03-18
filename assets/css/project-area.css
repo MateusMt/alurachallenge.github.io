@@ -1,5 +1,7 @@
 .project-area {
     margin: 0 0 0 2.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .your-project {
