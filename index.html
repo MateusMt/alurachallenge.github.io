@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset ="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/header.css">
+	<link rel="stylesheet" href="./assets/css/menu.css">
+	<link rel="stylesheet" href="./assets/css/coding-area.css">
+	<link rel="stylesheet" href="./assets/css/project-area.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<img class="logo" src="./assets/img/alura-dev.svg" alt="logotipo alura dev">
+			<input class="search" type="text" placeholder="Busque por algo">
+			<div class="profile">
+				<img class="img-profile" src="./assets/img/user-image.png" alt="Foto-de-perfil">
+				<span class="name-profile">Harry</span>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="body">
+			<nav class="menu-nav">
+				<h2>Menu</h2>
+				<ul class="menu-links">
+					<div class="menu-items">
+						<li>
+							<img src="./assets/img/Iconeditor-icon.svg" alt="logo do editor">
+							<a href="#">Editor de Código</a>
+						</li>
+						<li>
+							<img src="./assets/img/comunity-icon.svg" alt="logo da comunidade">
+							<a href="#">Comunidade</a>
+						</li>
+					</div>
+				</ul>
+			</nav>
+			<section class="coding-area">
+				<img class="mac-buttons" src="./assets/img/mac-buttons.svg" alt="botões de Mac">
+				<textarea class="code" cols="30" rows="10">
+const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+const unfold = (f, seed) => {
+	const go = (f, seed, acc) => {
+		const res = f(seed)
+		return res ? go(f, res[1], acc.concat([res[0]])) : acc
+	}
+	return go(f, seed, [])
+}
+				</textarea>
+				<button class="highlight-view">Visualizar com o highlight</button>				
+			</section>
+			<section class="project-area">
+				<div class="your-project">
+					<h2>Seu Projeto</h2>
+					<input type="text" class="project-name" placeholder="Nome do Seu projeto">
+					<input type="text" class="project-descryption" placeholder="Descrição do seu projeto">
+				</div>
+				<div class="personalization">
+					<h2>Personalização</h2>
+					<select class="select-language">
+						<option value="opt1">HTML5</option>
+						<option value="opt2">CSS3</option>
+						<option value="opt3">JavaScript</option>
+					</select>
+					<div class="buttons">
+						<input id="color-picker" type="color" value="#6BD1FF" >
+						<button class="save-button">Salvar Projeto</button>
+					</div>
+				</div>
+			</section>
+		</section>
+	</main>
+</body>
+<footer>
+	
+</footer>
