@@ -2,6 +2,7 @@ body {
 	background-color: #051D3B;
 	font-family: 'Inter', sans-serif;
 	margin: 2rem;
+	height: 64rem;
 }
 
 input::placeholder {
